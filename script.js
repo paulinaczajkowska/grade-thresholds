@@ -17,7 +17,7 @@ function calculateThresholds() {
     let resultHTML = `<h2>Próg:</h2><ul>`;
     thresholds.forEach(t => {
         const pointValue = (t.percent / 100) * maxPoints;
-        resultHTML += `<li>Ocena ${t.grade}: od ${Math.ceil(pointValue)} points</li>`;
+        resultHTML += `<li>Ocena ${t.grade}: od ${Math.ceil(pointValue)} punktów</li>`;
 
     });
     resultHTML += `</ul>`;
